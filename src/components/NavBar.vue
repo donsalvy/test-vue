@@ -12,15 +12,15 @@
   </nav>
 
 </template>
-
+ 
 <style scoped>
 
 .navbar {
-  display: flex;
+  display:flex; ;
   align-items: center;
   gap: 10px;
   justify-content: center;
-  background-color: #00bd7e;
+  background-color: #bdbd007c;
   /* background-color: #1B9AAA; */
   text-align: center;
   padding: 20px;

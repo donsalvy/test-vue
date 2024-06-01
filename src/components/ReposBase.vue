@@ -86,7 +86,8 @@ export default {
         :class="currentPage === lastPage ? 'disabled' : ''"
         @click="nextPage"
       >
-        <NextIcon />
+      
+        <NextIcon class="next" />
       </button>
     </div>
   </div>
@@ -102,15 +103,30 @@ export default {
   margin-bottom: 5rem;
 }
 
+.next{
+    color:#bd0036;
+}
 .repo-card,
 .repodetail-card {
-  border: 1px solid #00bd7e;
+  border: 1px solid #bdbd00;
   padding: 13px;
   border-radius: 5px;
 }
 
+.repo-card,
+.repodetail-card:hover {
+  box-shadow: 0 0 10px #bdbd00;
+    transition: 0.3s;
+}
+
+.repo-card,
+.repodetail-card:active {
+  box-shadow: 0 0 10px #bdbd00;
+    transition: 0.3s;
+}
+
 .repo-name {
-  color: #00bd7e;
+  color: #bdbd00;
   font-size: 2rem;
   word-break: break-word;
 }

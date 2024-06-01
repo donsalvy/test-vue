@@ -96,14 +96,14 @@
 
 
 .repodetail-card {
-    border: 1px solid #00bd7e;
+    border: 1px solid #778a2d;
     padding: 13px;
     border-radius: 5px;
 }
 
 
 .repo-name {
-    color: #00bd7e;
+    color: #c0c945e1;
     font-size: 2rem;
     word-break: break-word;
 }
@@ -134,14 +134,15 @@
 }
 
 .icons {
-    color: #00bd7e;
+    color: #bdbd00;
 }
+
 
 .back {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 2rem;
-    color: #00bd7e;
+    color: #bdbd00;
 }
 </style>
